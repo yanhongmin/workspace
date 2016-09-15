@@ -15,6 +15,7 @@ header {
 
 .step-container {
     display: block;
+    /*display:规定元素应该生成的框的类型*/
     float: left;
     box-shadow: 0 0 grey;
     text-align: center;
@@ -265,6 +266,12 @@ body {
     -webkit-user-select: none;
 }
 
+header {
+    height: .44rem;
+    text-align: center;
+    font-size: .17rem;
+}
+
 section {
     width: 100%;
 }
@@ -321,6 +328,7 @@ a.button:active.button-blue {
     display: block;
     font-size: .14rem;
     font-weight: 700;
+    /*font-weight:定义字体的粗细，400 等同于 normal，而 700 等同于 bold*/
     color: #646464;
     margin: 0 0 .1rem .3rem
 }
@@ -329,5 +337,5 @@ a.button:active.button-blue {
     display: block;
     font-size: .12rem;
     color: #9A9A9A;
-    margin: .1rem .3rem
+    margin: .1rem .3rem;
 }
